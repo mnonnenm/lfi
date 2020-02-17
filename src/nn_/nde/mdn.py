@@ -5,12 +5,12 @@ C. M. Bishop, "Mixture Density Networks", NCRG Report (1994)
 
 import numpy as np
 import torch
-import lfi.utils as utils
+import utils
 
 from torch import nn
 from torch.nn import functional as F
 
-from lfi.utils import repeat_rows
+from utils import repeat_rows
 
 class MultivariateGaussianMDN(nn.Module):
     """
